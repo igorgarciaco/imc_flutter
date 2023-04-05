@@ -77,6 +77,7 @@ class _IMCCalculatorFormState extends State<IMCCalculatorForm> {
                 }
               },
               child: Text('Calcular'),
+              style: ElevatedButton.styleFrom(minimumSize: Size(200, 40)),
             ),
             SizedBox(height: 16.0),
             Text(
